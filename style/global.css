@@ -32,7 +32,6 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 
     & img {
         border-radius: 50%;
@@ -70,20 +69,6 @@ aside {
         }
     }
 } 
-
-/* Botão menu hambúrguer */
-#btn-menu {
-    display: none;
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-    margin-top: 1rem;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
 
 /* Estilo main e seções */
 main {
@@ -125,7 +110,8 @@ ul {
 #contato > div a {
     display: flex;
     align-items: center;
-    margin-top: .5rem;
+    margin-top: .8rem;
+    gap: 0.5rem;
 }
 
 footer {

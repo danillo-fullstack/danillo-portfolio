@@ -1,3 +1,17 @@
+/* Botão menu hambúrguer */
+#btn-menu {
+    display: none;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
 @media (max-width: 48rem) {
     body {
         flex-direction: column;
@@ -36,7 +50,6 @@
             & a {
                 color: #fff;
                 font-weight: bold;
-                padding: 0.5rem 0;
                 text-align: center;   /* centraliza o texto do link */
                 width: 100%;          /* faz o link ocupar toda a largura */
                 display: block;       /* garante o comportamento de bloco */
