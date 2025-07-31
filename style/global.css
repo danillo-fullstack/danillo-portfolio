@@ -107,6 +107,11 @@ ul {
     }
 }
 
+#projetos ul li p {
+    margin-top: .2rem;
+    line-height: 1.3rem;
+}
+
 #contato > div a {
     display: flex;
     align-items: center;
