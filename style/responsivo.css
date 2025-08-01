@@ -13,8 +13,9 @@
 }
 
 @media (max-width: 48rem) {
-    body {
-        flex-direction: column;
+    #app {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     aside {
@@ -66,5 +67,17 @@
     .no-scroll {
         overflow: hidden;
         height: 100vh;
+    }
+
+    main {
+        &::-webkit-scrollbar {
+            max-width: 3px;
+        }
+        &::-webkit-scrollbar-track {
+            background-color: #222;
+        }
+        &::-webkit-scrollbar-thumb {
+            max-width: 2px;
+        }
     }
 }
