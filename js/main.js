@@ -27,7 +27,7 @@ nav.querySelectorAll('a').forEach(link => {
           if (targetElement) {
             const offsetTop = targetElement.offsetTop;
             main.scrollTo({
-              top: offsetTop,
+              top: offsetTop - 180,
               behavior: 'smooth'
             });
           }
