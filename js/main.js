@@ -12,7 +12,7 @@ btnMenu.addEventListener('click', () => {
 nav.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', (e) => {
     if (nav.classList.contains('open')) {
-      e.preventDefault();
+     
 
       const targetId = link.getAttribute('href');
 
