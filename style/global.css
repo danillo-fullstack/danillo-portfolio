@@ -85,6 +85,11 @@ main {
     scroll-behavior: smooth;
 }
 
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+}
+
 section {
     margin-bottom: 2.5rem;
 
